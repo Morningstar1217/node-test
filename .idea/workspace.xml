@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e12d84b7-13cc-4bb1-87f9-1d4bc43700b0" name="默认的" comment="" />
+    <list default="true" id="e12d84b7-13cc-4bb1-87f9-1d4bc43700b0" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middlewares/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middlewares/urlnormalize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,12 +45,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1pSIshO28G9QrbKdqEQfD0N5vVh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -29,6 +66,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\documents\nodeJs" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -56,32 +98,47 @@
       <option name="presentableId" value="Default" />
       <updated>1615170272886</updated>
       <workItem from="1615170273961" duration="12012000" />
+      <workItem from="1615268153768" duration="2980000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1537" height="221" key="GridCell.Tab.0.bottom" timestamp="1615196734430">
+    <state width="1537" height="221" key="GridCell.Tab.0.bottom" timestamp="1615270510307">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="221" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1615196734430" />
-    <state width="1537" height="221" key="GridCell.Tab.0.center" timestamp="1615196734428">
+    <state width="1537" height="221" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1615270510307" />
+    <state width="1537" height="221" key="GridCell.Tab.0.center" timestamp="1615270510307">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="221" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1615196734428" />
-    <state width="1537" height="221" key="GridCell.Tab.0.left" timestamp="1615196734428">
+    <state width="1537" height="221" key="GridCell.Tab.0.center/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1615270510307" />
+    <state width="1537" height="221" key="GridCell.Tab.0.left" timestamp="1615270510306">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="221" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1615196734428" />
-    <state width="1537" height="221" key="GridCell.Tab.0.right" timestamp="1615196734429">
+    <state width="1537" height="221" key="GridCell.Tab.0.left/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1615270510306" />
+    <state width="1537" height="221" key="GridCell.Tab.0.right" timestamp="1615270510307">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="221" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1615196734429" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1615194178879">
+    <state width="1537" height="221" key="GridCell.Tab.0.right/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1615270510307" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1615269106236">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1615194178879" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/-1920.0.1920.1080@0.0.1536.834" timestamp="1615269106236" />
   </component>
 </project>

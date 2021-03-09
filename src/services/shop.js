@@ -51,6 +51,14 @@ class ShopService {
         
         return delete memoryStorage[id]
     }
+    
+    async create({ values }) {
+        await delay()
+        
+        const id = String(1 + Object.keys(memoryStorage).reduce((m, id) => Math.max(m, id), 1000)) || '1000'
+        
+        return { id, ...(memoryStorage[id] = values) }
+    }
 }
 
 let service

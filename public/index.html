@@ -15,15 +15,11 @@
 </head>
 <body>
 <div id="app">
-    <el-table ref="multipleTable"
-              :data="shopList"
-              tooltip-effect="dark"
-              style="width: 100%"
-              @selection-change="handleSelectionChange">
-        <el-table-column
-                type="selection"
-                width="55">
-        </el-table-column>
+    <el-table
+            :data="shopList"
+            tooltip-effect="dark"
+            style="width: 100%"
+            @selection-change="handleSelectionChange">
         <el-table-column label="店铺名称">
             <template slot-scope="scope">
                 <div class="table-div">
@@ -35,6 +31,8 @@
             </template>
         </el-table-column>
     </el-table>
+    <el-input v-model="newValue" size="mini" placeholder="请输入店铺名" style="width: 150px;margin-top: 20px;"></el-input>
+    <el-button size="mini" type="success" @click="addShop">新增</el-button>
 </div>
 </body>
 <!-- 引入组件库 -->
@@ -54,7 +52,8 @@
         el: '#app',
         data() {
             return {
-                shopList: []
+                shopList: [],
+                newValue: ''
             }
         },
         mounted() {
@@ -84,6 +83,24 @@
                     if (res.data.success) {
                         this._notify('删除成功', 'success')
                         this.getData()
+                    }
+                }).catch(err => console.log(err))
+            },
+            addShop() {
+                axios({
+                    url: 'api/shop',
+                    method: 'post',
+                    params: {
+                        name: this.newValue
+                    }
+                }).then(res => {
+                    res = res.data
+                    if (res.success) {
+                        this._notify('添加成功', 'success')
+                        this.getData()
+                        this.newValue = ''
+                    } else {
+                        this._notify(res.message, 'error')
                     }
                 }).catch(err => console.log(err))
             },

@@ -13,6 +13,7 @@ class ShopController {
         router.get('/:shopId', this.getOne)
         router.put('/:shopId', this.put)
         router.delete('/:shopId', this.delete)
+        router.post('/', this.post)
         return router
     }
     
@@ -67,6 +68,20 @@ class ShopController {
         }
         
         res.send({ success })
+    }
+    
+    post = async (req, res) => {
+        const { name } = req.query
+        
+        try {
+            await createShopFormSchema().validate({ name })
+        } catch (e) {
+            return res.send({ success: false, message: e.message })
+        }
+        
+        const shopInfo = await this.shopService.create({ values: { name } })
+        
+        res.send({ success: true, data: shopInfo })
     }
 }
 
